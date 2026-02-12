@@ -7,7 +7,7 @@ rm -rf device/xiaomi/zorn
 rm -rf device/xiaomi/sm8650-common
 rm -rf kernel/xiaomi/sm8650
 rm -rf vendor/xiaomi/zorn
-rn -rf hardware/xiaomi
+rm -rf hardware/xiaomi
 
 git clone https://github.com/zorn-trees/android_device_xiaomi_zorn -b lineage-23.0 device/xiaomi/zorn
 git clone https://github.com/zorn-trees/device_xiaomi_sm8650-common -b lineage-23.1 device/xiaomi/sm8650-common
