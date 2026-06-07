@@ -8,9 +8,9 @@ rm -rf device/xiaomi/zorn-kernel
 rm -rf vendor/xiaomi/zorn
 rm -rf hardware/xiaomi
 
-git clone https://github.com/Xiaomi-zorn-devs/device_xiaomi_zorn -b main device/xiaomi/zorn
-git clone https://github.com/Xiaomi-zorn-devs/device_xiaomi_zorn-kernel -b A16 device/xiaomi/zorn-kernel
-git clone https://codeberg.org/Phhgsi/vendor_xiaomi_zorn -b main vendor/xiaomi/zorn
+git clone https://github.com/ArmSM/device_xiaomi_zorn -b testZorn device/xiaomi/zorn
+git clone https://github.com/Sakura-Devices/device_xiaomi_zorn-kernel -b 16.2 device/xiaomi/zorn-kernel
+git clone https://codeberg.org/ArmSM/vendor_xiaomi_zorn -b 16 vendor/xiaomi/zorn
 git clone https://github.com/Evolution-X-Devices/hardware_xiaomi -b bka hardware/xiaomi
 
 source build/envsetup.sh
