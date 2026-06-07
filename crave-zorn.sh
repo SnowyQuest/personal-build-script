@@ -11,7 +11,7 @@ rm -rf hardware/xiaomi
 git clone https://github.com/ArmSM/device_xiaomi_zorn -b testZorn device/xiaomi/zorn
 git clone https://github.com/Sakura-Devices/device_xiaomi_zorn-kernel -b 16.2 device/xiaomi/zorn-kernel
 git clone https://codeberg.org/ArmSM/vendor_xiaomi_zorn -b 16 vendor/xiaomi/zorn
-git clone https://github.com/Evolution-X-Devices/hardware_xiaomi -b bka hardware/xiaomi
+git clone https://github.com/ProjectSakura/hardware_xiaomi -b 16test hardware/xiaomi
 
 source build/envsetup.sh
 lunch lineage_zorn-bp4a-userdebug
