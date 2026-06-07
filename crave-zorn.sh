@@ -7,6 +7,8 @@ rm -rf device/xiaomi/zorn
 rm -rf device/xiaomi/zorn-kernel
 rm -rf vendor/xiaomi/zorn
 rm -rf hardware/xiaomi
+rm -rf packages/apps/LunarisDolby
+rm -rf vendor/sony/dolby
 
 git clone https://github.com/ArmSM/device_xiaomi_zorn -b testZorn device/xiaomi/zorn
 git clone https://github.com/Sakura-Devices/device_xiaomi_zorn-kernel -b 16.2 device/xiaomi/zorn-kernel
